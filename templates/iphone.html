@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+    <title>Chance Background</title>
+    <link href="/static/css/iphone.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" rel="stylesheet" type="text/css">
+    
+    </head>
+    <body>
+          
+          <div class="main" id="phone">
+              <nav>
+                <div class="logo">
+                    <img src="/static/images/ip.png">
+                
+                  </div>
+              </nav>
+              <div class="contant">
+                  <h1>I Phone</h1>
+                  <h2>13 Pro Max</h2>
+                  <p>With iPhone Mirroring, you can view your iPhone screen on your Mac and control it without picking up your phone.
+                     Continuity features also let you answer calls or messages right from your Mac. 
+                     You can even copy images, video or text from your iPhone and paste it all into a different app on your Mac.
+                     And with iCloud, you can access your files from either device.
+                    </p>
+
+                    <div class="choes">
+                         <h1>Choose your color</h1>
+
+                    </div>
+                    <div class="select">
+
+                      <div id="Blue"></div>
+                      <div id="Green"></div>
+                      <div id="Gold"></div>
+                      <div id="Black"></div>
+
+                    </div>
+              </div>
+          </div>
+                
+    
+  
+    <script>
+    
+      let Bluebtn = document.getElementById("Blue")
+      let Greenbtn = document.getElementById("Green")
+      let Goldbtn = document.getElementById("Gold")
+      let Blackbtn = document.getElementById("Black")
+      let phone = document.getElementById("phone")
+    
+  
+  
+  
+  
+  
+  Bluebtn.onclick=function(){
+    phone.style.backgroundImage="url('/static/images/Blue.jpg')";
+    }
+  
+  Greenbtn.onclick=function(){
+    phone.style.backgroundImage="url('/static/images/Green.jpg')";
+  
+    }
+  
+    Goldbtn.onclick=function(){
+      phone.style.backgroundImage="url('/static/images/Gold.jpg')";
+    }
+  
+    Blackbtn.onclick=function(){
+      phone.style.backgroundImage="url('/static/images/Black.jpg')";
+  }
+</script>
+  
+</body>
+</html>  
